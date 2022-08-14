@@ -8,7 +8,7 @@
 [https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi](https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi)
 
 ![MPU6050 Interfacing with Raspberry Pi](./images/diagram.png)
-![Connected MPU6050 and Raspberry Pi Zero](./images/connections.jpg)
+![Connected MPU6050 and Raspberry Pi Zero](./images/connects.jpg)
 
 ## Test Code
 
