@@ -1,18 +1,21 @@
 # Brain Box Hat
 
+Documentation on how to build Brain Box Hat, a waearable hat with a screen and MPU6050 sensor interacting with Three.js.
+
 ## Hardware
 
 * Raspberry Pi Zero
 * MPU6050
+* Pimoroni Display HAT Mini
 
-[https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi](https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi)
+## MPU6050 Setup
 
 ![MPU6050 Interfacing with Raspberry Pi](./images/diagram.png)
 ![Connected MPU6050 and Raspberry Pi Zero](./images/connects.jpg)
 
-## Test Code
+From [https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi](MPU6050 With Raspberry Pi)
 
-From [https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi)
+### Test Code
 
 Install required module:
 ```pip install mpu6050-raspberrypi```
@@ -43,18 +46,21 @@ while True:
     time.sleep(1)
 ```
 
-## Errors
+### Errors
 
 ```
 i2cbus = smbus.SMBus(1)
 FileNotFoundError: [Errno 2] No such file or directory
 ```
-To fix this error enable the I2c interface with the Raspberry Pi config utility.
+To fix this error enable the I2C interface with the Raspberry Pi config utility.
 
-1. sudo raspi-config
+1. ```sudo raspi-config```
 2. Select Interfacing options
 3. Choose I2C 
 4. Hit Enter
 5. Select Finish
 
+## Reference
 
+[https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi](Electronic Wings MPU6050 Guides)
+[https://shop.pimoroni.com/products/display-hat-mini](Pimoroni Display HAT Mini Guides)
