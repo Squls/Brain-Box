@@ -1,8 +1,8 @@
 # Brain Box Hat
 
-[Hardware](#Hardware)
-[MPU6050](#MPU6050)
-[Reference](#Reference)
+* [Hardware](#Hardware)
+* [MPU6050](#MPU6050)
+* [Reference](#Reference)
 
 Documentation on how to build Brain Box Hat, a waearable hat with a screen and MPU6050 sensor interacting with Three.js.
 
