@@ -1,5 +1,9 @@
 # Brain Box Hat
 
+[Hardware](#Hardware)
+[MPU6050](#MPU6050)
+[Reference](#Reference)
+
 Documentation on how to build Brain Box Hat, a waearable hat with a screen and MPU6050 sensor interacting with Three.js.
 
 ## Hardware
@@ -8,12 +12,12 @@ Documentation on how to build Brain Box Hat, a waearable hat with a screen and M
 * MPU6050
 * Pimoroni Display HAT Mini
 
-## MPU6050 Setup
+## MPU6050
+
+### Setup
 
 ![MPU6050 Interfacing with Raspberry Pi](./images/diagram.png)
 ![Connected MPU6050 and Raspberry Pi Zero](./images/connects.jpg)
-
-From [https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi](MPU6050 With Raspberry Pi)
 
 ### Test Code
 
@@ -62,5 +66,6 @@ To fix this error enable the I2C interface with the Raspberry Pi config utility.
 
 ## Reference
 
-[https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi](Electronic Wings MPU6050 Guides)
-[https://shop.pimoroni.com/products/display-hat-mini](Pimoroni Display HAT Mini Guides)
+* [Electronic Wings MPU6050 Guides](https://www.electronicwings.com/raspberry-pi/mpu6050-accelerometergyroscope-interfacing-with-raspberry-pi)
+* [MPU6050 With Raspberry Pi](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi)
+* [Pimoroni Display HAT Mini Guides](https://shop.pimoroni.com/products/display-hat-mini)
